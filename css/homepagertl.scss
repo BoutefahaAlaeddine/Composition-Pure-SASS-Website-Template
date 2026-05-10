@@ -1,0 +1,31 @@
+@use "sass/helpers/variables" as *;
+
+$text-align: right;
+
+/*star header*/
+.header {
+  .container {
+    .navbar {
+      li {
+        a {
+          @media #{$maxMobile} {
+            text-align: $text-align;
+          }
+        }
+      }
+    }
+  }
+}
+/*end header*/
+
+/*star players*/
+.our-players {
+  .players-boxes {
+    .player-box {
+      @media #{$minMedium} {
+        text-align: $text-align;
+      }
+    }
+  }
+}
+/*end players*/

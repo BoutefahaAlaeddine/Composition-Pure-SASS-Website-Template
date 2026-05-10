@@ -1,0 +1,11 @@
+@use "sass/helpers/variables" as *;
+@use "sass/helpers/mixins" as *;
+@import "sass/layout/_gr";
+@import "sass/components/buttons";
+@import "sass/components/headings";
+
+@import "sass/pages/globalpage";
+@import "sass/layout/header";
+@import "sass/pages/homepage";
+@import "sass/components/buttons";
+@import "sass/layout/footer";

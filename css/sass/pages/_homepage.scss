@@ -1,0 +1,140 @@
+/*star slider*/
+.slider {
+  q {
+    font: {
+      size: 20px;
+      style: italic;
+      weight: bold;
+    }
+    line-height: 1.7;
+    text-align: center;
+    color: #5e5e5e;
+    width: 80%;
+    margin: 30px auto;
+    display: block;
+  }
+  img {
+    max-width: 100%;
+  }
+  .bullets {
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: $greyColor;
+    border-radius: 50%;
+    border: 3px solid $greyColor;
+    @include prefixer(transition, $transition, $web $mozilla $microsoft);
+    &.active,
+    &:hover {
+      background-color: #fff;
+      border: 3px solid #333;
+    }
+  }
+}
+/*end slider*/
+
+/*star Services*/
+.services {
+  .service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    .service-box {
+      @media #{$minMedium} {
+        width: (100% / 3);
+        &:not(:last-of-type) {
+          padding-right: 20px;
+        }
+      }
+      @media #{$maxMobile} {
+        i {
+          display: block;
+          margin-bottom: 15px;
+        }
+      }
+
+      .service-title {
+        color: #666;
+        i {
+          font-size: 35px;
+          position: relative;
+          top: 4px;
+        }
+      }
+      .service-desc {
+        color: #777;
+      }
+      .link {
+        color: $redColor;
+      }
+    }
+  }
+}
+/*end Services*/
+/*star players*/
+.our-players {
+  .players-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .player-box {
+      @media #{$minSmall} {
+        width: calc((100% - 20px) / 2);
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      @media #{$minMedium} {
+        width: calc((100% - 60px) / 4);
+        text-align: $text-align;
+      }
+      @media #{$maxMobile} {
+        margin-bottom: 40px;
+      }
+
+      .player-img {
+        max-width: 100%;
+      }
+      .player-title {
+        display: flex;
+        justify-content: center;
+        @media #{$minMedium} {
+          justify-content: start;
+        }
+
+        color: #666;
+        font-weight: normal;
+        span {
+          font-weight: bold;
+        }
+      }
+      .service-desc {
+        color: #777;
+      }
+      .link {
+        color: $redColor;
+      }
+    }
+  }
+}
+/*end players*/
+/*star lorem ipsum*/
+.lorem-ipsum {
+  .lorem-boxes {
+    display: flex;
+    gap: 3%;
+    @media #{$maxMobile} {
+      flex-direction: column;
+    }
+    .lorem-box {
+      @media #{$minSmall} {
+        width: (94% / 3);
+      }
+    }
+    .lorem-img {
+      max-width: 100%;
+    }
+  }
+}
+/*end lorem ipsum*/

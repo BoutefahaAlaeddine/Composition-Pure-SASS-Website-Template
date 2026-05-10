@@ -1,0 +1,16 @@
+/*star header*/
+@media (max-width:767px) {
+  .header .container .navbar li a {
+    text-align: right;
+  }
+}
+
+/*end header*/
+/*star players*/
+@media (min-width:992px) {
+  .our-players .players-boxes .player-box {
+    text-align: right;
+  }
+}
+
+/*end players*/

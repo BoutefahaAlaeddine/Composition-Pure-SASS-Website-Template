@@ -1,0 +1,107 @@
+footer {
+  background-color: #e2e2e2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  .container:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    .gallery {
+      @media #{$minSmall} {
+        width: 100%;
+      }
+      @media #{$minMedium} {
+        width: 50%;
+      }
+      .img-box {
+        display: flex;
+        @media #{$maxMobile} {
+          flex-direction: column;
+          align-items: center;
+        }
+        img {
+          width: 150px;
+          height: 150px;
+        }
+        .text {
+          margin-right: 15px;
+          margin-left: 15px;
+          width: calc(100% - 180px);
+        }
+        h4 {
+          color: $redColor;
+          margin: 20px 0 0px;
+        }
+        p {
+          color: #888;
+          line-height: 1.9;
+        }
+      }
+    }
+    .info {
+      @media #{$maxMobile} {
+        width: 100%;
+      }
+      @media #{$minSmall} {
+        width: 50%;
+      }
+      @media #{$minMedium} {
+        width: 25%;
+      }
+      ul {
+        color: #888;
+        line-height: 1.8;
+        li {
+          span {
+            color: $redColor;
+          }
+        }
+      }
+      h4 {
+        color: #888;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+      p {
+        color: #888;
+        margin-top: 8px;
+      }
+    }
+    .contact {
+      @media #{$minSmall} {
+        width: 50%;
+      }
+      @media #{$minMedium} {
+        width: 25%;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        border: 1px solid #c9c9c9;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        width: 100%;
+      }
+      textarea {
+        height: 140px;
+        resize: none;
+      }
+    }
+  }
+  .copyright {
+    padding: 15px 0;
+    border-top: 1px solid #c5c5c5;
+    color: #888;
+    .container {
+      display: flex;
+      .text,
+      .author {
+        width: 50%;
+      }
+      .author {
+        text-align: end;
+      }
+    }
+  }
+}

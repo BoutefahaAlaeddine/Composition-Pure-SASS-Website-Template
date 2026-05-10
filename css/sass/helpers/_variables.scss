@@ -1,0 +1,22 @@
+//media query
+$maxMobile: "(max-width:767px)";
+$maxSmall: "(max-width:991px)";
+$minSmall: "(min-width:768px)";
+$minMedium: "(min-width:992px)";
+$minLarge: "(min-width:1200px)";
+
+//colors
+$redColor: #e2494c;
+$greyColor: #9c9c9c;
+
+// prefixes Mixin
+$mozilla: moz;
+$opera: o;
+$web: webkit;
+$microsoft: ms;
+
+//transition
+$transition: 0.3s;
+
+//text align
+$text-align: left;
