@@ -7,9 +7,8 @@
 ## 📸 Preview
 
 | Desktop View | Mobile View |
-|---|---|
-| ![Preview 1](imageGithub/1.png) | ![Preview 2](imageGithub/2.png) |
-| ![Preview 3](imageGithub/3.png) 
+|---|---|---|
+| ![Preview 1](imageGithub/1.png) | ![Preview 2](imageGithub/2.png) | ![Preview 3](imageGithub/3.png) 
 
 
 ---
