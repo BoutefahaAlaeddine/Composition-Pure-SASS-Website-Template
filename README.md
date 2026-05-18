@@ -1,6 +1,6 @@
 # Composition — Pure SASS Website Template
 
-> A clean, fully responsive website template built **from scratch** with **HTML5**, **CSS3**, and **SASS/SCSS** — no frameworks, no dependencies. Includes full **RTL (Arabic) support** and a modular SASS architecture.
+🌐 Websites. A clean, fully responsive website template built **from scratch** with **HTML5**, **CSS3**, and **SASS/SCSS** — no frameworks, no dependencies. Includes full **RTL (Arabic) support** and a modular SASS architecture.
 
 ---
 
